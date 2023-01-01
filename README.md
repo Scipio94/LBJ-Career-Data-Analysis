@@ -5,7 +5,7 @@
 
 ## Abstract 
 
-NBA dataset with found on Kaggle with NBA game results data from the 2003 season through the 2022 season. The dataset includes results from both regular season and postseason games from all the teams and NBA players who have played over the last twenty seasons. The dataset will be used to specifically analyze LeBron James’ career point, assist, and rebound totals.
+NBA dataset found on Kaggle with NBA game results data from the 2003 season through the 2022 season. The dataset includes results from both regular season and postseason games from all the teams and NBA players who have played over the last twenty seasons. The dataset will be used to specifically analyze LeBron James’ career point, assist, and rebound totals.
 
 Access Data Set [HERE](https://www.kaggle.com/datasets/nathanlauga/nba-games?select=games_details.csv), I used the following datasets:
 - ***games.csv***
