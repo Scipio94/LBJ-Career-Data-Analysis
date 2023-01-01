@@ -1,5 +1,7 @@
 
-Joining the two datasets using the **game_id** column
+SQL Syntax for the queries ran during the analysis of the dataset. Corresponding query results will be uploaded as seperate files.  
+
+1. Joining the two datasets using the **game_id** column
 
 ~~~ SQL
 
@@ -12,7 +14,7 @@ SELECT *
 ~~~~
 
 
-LeBron James career stats by team
+2. LeBron James career stats by team
 
 ~~~ SQL
 SELECT 
@@ -30,7 +32,7 @@ ORDER BY SeasonCount;
 ~~~
 
 
-Career Trend of LeBron James based on shot selection
+3. Career Trend of LeBron James based on shot selection
 ~~~ SQL
 
 /* Trends*/
@@ -51,7 +53,7 @@ SELECT
 FROM Trends;
 ~~~~
 
-A deeper dive into LeBron James' offesnive game
+4. A deeper dive into LeBron James' offesnive game
 ~~~~ SQL
 
 /* Offensive Breakdown*/
@@ -71,7 +73,7 @@ A deeper dive into LeBron James' offesnive game
  ORDER BY SEASON ASC;
 ~~~~
 
-LeBron's best statistical season of his career order by descending order in  average points, rebounds, assists, and field goal percentage
+5. LeBron's best statistical season of his career order by descending order in  average points, rebounds, assists, and field goal percentage
 
 ~~~~ SQL
 /* Best Statistical Season of LBJ Career*/
@@ -92,7 +94,7 @@ SELECT
  LIMIT 1;-- Best statistical season of LBJ career
 ~~~~
 
-LeBron James' career stats
+6. LeBron James' career stats
 ~~~~ SQL 
 
 /* Number of Games Lebron has played per season and ppg and other relevant stats*/
